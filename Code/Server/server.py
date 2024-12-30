@@ -380,8 +380,8 @@ class Server:
                 self.send(cmd.CMD_POWER+'#'+str(round(ADC_Power, 2))+'\n')
             except:
                 pass
-            time.sleep(3)
-            if ADC_Power < 6.5:
+            time.sleep(10)
+            if ADC_Power < 6:
                 for i in range(4):
                     self.buzzer.run('1')
                     time.sleep(0.1)

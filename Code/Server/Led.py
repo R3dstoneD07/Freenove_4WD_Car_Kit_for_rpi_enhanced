@@ -15,7 +15,7 @@ class Led:
         self.pi_version = self.param.get_raspberry_pi_version()
 
         # Set up the LED strip based on PCB and Raspberry Pi versions
-        if self.pcb_version == 1 and self.pi_version == 1:
+        if (self.pcb_version == 1 or self.pcb_version == 2) and self.pi_version == 1:
             self.strip = Freenove_RPI_WS281X(8, 255, 'RGB')
             self.is_support_led_function = True
 
