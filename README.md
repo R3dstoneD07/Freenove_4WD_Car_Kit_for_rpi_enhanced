@@ -1,4 +1,5 @@
-## Freenove 4WD Smart Car Kit for Raspberry Pi
+## Freenove 4WD Smart Car Kit for Raspberry Pi.
+### This is my playground, I plan to make a few enhacements, such as controlling from an xbox controller
 
 ### Please select the corresponding code file according to your Raspberry PI
 
